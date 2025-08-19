@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-dotnettools.csharp",
+      "k--kato.intellij-idea-keybindings",
+      "vscode-icons-team.vscode-icons"
+    ]
+  }
+}

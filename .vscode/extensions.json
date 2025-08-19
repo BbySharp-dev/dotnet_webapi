@@ -1,0 +1,35 @@
+{
+  "recommendations": [
+    // .NET Development
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.csdevkit",
+    "ms-dotnettools.vscode-dotnet-runtime",
+
+    // IntelliJ IDEA Keybindings để đồng bộ với Rider
+    "k--kato.intellij-idea-keybindings",
+
+    // Theme và Icons
+    "vscode-icons-team.vscode-icons",
+    "PKief.material-icon-theme",
+
+    // Git
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+
+    // Productivity
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "oderwat.indent-rainbow",
+    "christian-kohler.path-intellisense",
+
+    // API Development
+    "humao.rest-client",
+    "ms-vscode.rest",
+
+    // Docker (nếu cần)
+    "ms-azuretools.vscode-docker",
+
+    // EditorConfig
+    "EditorConfig.EditorConfig"
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  // Key bindings tùy chỉnh để đồng bộ với Rider
+  // Sau khi cài extension "IntelliJ IDEA Keybindings", hầu hết keymap sẽ tự động đồng bộ
+
+  // Duplicate Line (Ctrl+D trong Rider)
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // Move Line Up (Alt+Shift+Up)
+  {
+    "key": "alt+shift+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // Move Line Down (Alt+Shift+Down)
+  {
+    "key": "alt+shift+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // Comment/Uncomment (Ctrl+/)
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // Go to Declaration (Ctrl+B trong Rider)
+  {
+    "key": "ctrl+b",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+
+  // Go to Implementation (Ctrl+Alt+B trong Rider)
+  {
+    "key": "ctrl+alt+b",
+    "command": "editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus"
+  },
+
+  // Find Usages (Alt+F7 trong Rider)
+  {
+    "key": "alt+f7",
+    "command": "references-view.findReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus"
+  },
+
+  // Rename Symbol (Shift+F6 trong Rider)
+  {
+    "key": "shift+f6",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus"
+  },
+
+  // Generate/Refactor Menu (Alt+Insert trong Rider)
+  {
+    "key": "alt+insert",
+    "command": "editor.action.sourceAction",
+    "when": "editorTextFocus"
+  },
+
+  // Quick Fix (Alt+Enter trong Rider)
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus"
+  }
+]
